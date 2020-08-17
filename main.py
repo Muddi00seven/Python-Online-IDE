@@ -1,14 +1,14 @@
 import turtle
-a = turtle.Turtle()
+# a = turtle.Turtle()
 
-def square():
-  a.forward(200)
-  a.right(90)
-  a.forward(200)
-  a.right(90)
-  a.forward(200)
-  a.right(90)
-  a.forward(200)
+# def square():
+#   a.forward(200)
+#   a.right(90)
+#   a.forward(200)
+#   a.right(90)
+#   a.forward(200)
+#   a.right(90)
+#   a.forward(200)
 
 # square()
 # a.forward(200)
@@ -54,3 +54,15 @@ def square():
 
 # if True:
 #   square()
+
+# for i in range(10):
+#   print(i)
+
+# tables = int(input(''))
+# for x in range(tables , 10):
+#   print(x)
+
+table = int(input("Enter the number:"))
+
+for i in range(1, 11):
+   print(table,"X",i,"=",table * i)

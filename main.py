@@ -70,17 +70,35 @@ def square():
 # for count in range(4):
 #   square()
 
+    # LIST
 # l = [1,2,3,4,5]
 # print(l)
-names = ['lol' , 'pol' , 'chol' , 'dol']
-print(names)
+# names = ['lol' , 'pol' , 'chol' , 'dol']
+# print(names)
 # names.append('khan')
 # print(names)
 
 # names.insert(2, 'khan')
 # print(names)
-names.sort()
+# names.sort()
 # print(names)
 
-for name in names:
-  print(name)
+# for name in names:
+#   print(name)
+
+  # SLICING
+
+num = [1,2,3,4,5,6,7,8,9,10,11]
+print(num[2])
+print(num[-2])
+name = "yoo man"
+print(name[0:3  ])
+print(num[0:5])
+print(num[0:11:2])
+print(num[::-1])
+print(num[0:10:-1])
+
+# for i in range(len(num)):
+#   print(num[0:i])
+for i in range(len(num)):
+  print(num[i:i:3])

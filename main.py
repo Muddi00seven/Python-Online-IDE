@@ -70,3 +70,17 @@ def square():
 # for count in range(4):
 #   square()
 
+# l = [1,2,3,4,5]
+# print(l)
+names = ['lol' , 'pol' , 'chol' , 'dol']
+print(names)
+# names.append('khan')
+# print(names)
+
+# names.insert(2, 'khan')
+# print(names)
+names.sort()
+# print(names)
+
+for name in names:
+  print(name)

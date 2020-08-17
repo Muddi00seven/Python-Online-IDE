@@ -34,14 +34,23 @@ def square():
 # leap = calendar.isleap(2020)
 # print(leap)
 
-dino = 1000
-elephant = 100
-if(dino < elephant):
-  square()
-else:
-  a.forward(200)
+# dino = 1000
+# elephant = 100
+# if(dino < elephant):
+#   square()
+# else:
+#   a.forward(200)
 
 
+    # while loop
+# muddi = "cool"
+# while(muddi == 'cool'):
+#   square()
+
+# muddi = "cool"
+# while(muddi == 'cool'):
+#   square()
+    # break
 
 # if True:
 #   square()

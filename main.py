@@ -88,17 +88,28 @@ def square():
 
   # SLICING
 
-num = [1,2,3,4,5,6,7,8,9,10,11]
-print(num[2])
-print(num[-2])
-name = "yoo man"
-print(name[0:3  ])
-print(num[0:5])
-print(num[0:11:2])
-print(num[::-1])
-print(num[0:10:-1])
+# num = [1,2,3,4,5,6,7,8,9,10,11]
+# print(num[2])
+# print(num[-2])
+# name = "yoo man"
+# print(name[0:3  ])
+# print(num[0:5])
+# print(num[0:11:2])
+# print(num[::-1])
+# print(num[0:10:-1])
 
 # for i in range(len(num)):
 #   print(num[0:i])
-for i in range(len(num)):
-  print(num[i:i:3])
+# for i in range(len(num)):
+#   print(num[i:i:3])
+
+    # SPLIT
+year = '2010 , 2012 , 2013  , 2017 , 2019 , 2020 '
+print(type(year))
+print(year)
+
+l = year.split(" , ")
+c = year.split("2017")
+print(type(l))
+print(l)
+print(c)

@@ -104,19 +104,35 @@ def square():
 #   print(num[i:i:3])
 
     # SPLIT
-year = '2010 , 2012 , 2013  , 2017 , 2019 , 2020 '
-print(type(year))
-print(year)
+# year = '2010 , 2012 , 2013  , 2017 , 2019 , 2020 '
+# print(type(year))
+# print(year)
 
-l = year.split(" , ")
+# l = year.split(" , ")
 # c = year.split("2017")
 # print(type(l))
 # print(l)
 # print(c)
 
   # JOIN
-joined = ' this is ' .join(l)
-comma = ' , ' .join(l)
-print(joined)
-print(comma)
+# joined = ' this is ' .join(l)
+# comma = ' , ' .join(l)
+# print(joined)
+# print(comma)
+
+  # TUPLES
+# a = ('mudassir' , 18 , 'male')
+# (name, age ,gendar) = a
+# print(name , age ,gendar)
+
+person1 = ('lol ' , 18 , "male")
+person2 = ('loli' , 19 , "female")
+people = {person1 , person2}
+
+for name, age , gendar in people:
+  print(name)
+  print(age)
+  print(gendar)
+  print()
+
 

@@ -109,7 +109,14 @@ print(type(year))
 print(year)
 
 l = year.split(" , ")
-c = year.split("2017")
-print(type(l))
-print(l)
-print(c)
+# c = year.split("2017")
+# print(type(l))
+# print(l)
+# print(c)
+
+  # JOIN
+joined = ' this is ' .join(l)
+comma = ' , ' .join(l)
+print(joined)
+print(comma)
+

@@ -146,12 +146,22 @@ def square():
 # a = set(l)
 # print(a)
 
-l1 = {'python' , 'javascript ', 'java' , 'c++'}
-l2 = {'java' , 'c++' , 'ruby ' , 'django'}
-a = l1.union(l2)
-print(a)
+# l1 = {'python' , 'javascript ', 'java' , 'c++'}
+# l2 = {'java' , 'c++' , 'ruby ' , 'django'}
+# a = l1.union(l2)
+# print(a)
 
-ll1 = {'python' , 'javascript ', 'java' , 'c++'}
-ll2 = {'java' , 'c++' , 'ruby ' , 'django'}
-b = ll1.difference(ll2)
-print(b)
+# ll1 = {'python' , 'javascript ', 'java' , 'c++'}
+# ll2 = {'java' , 'c++' , 'ruby ' , 'django'}
+# b = ll1.difference(ll2)
+# print(b)
+
+  # DICTONARIES
+# get()
+# items()
+# keys()
+# values()
+# pop()
+# pooitems()
+# clear()
+

@@ -212,11 +212,22 @@ def square():
 
 # list comparision
 
-names = ['mudassir' , 'fahad' , 'obaid' ]
+# names = ['mudassir' , 'fahad' , 'obaid' ]
+# l = []
+
+# print(l)
+# for person in names:
+#   l.append(person + ' khan')
+# l.sort()
+# print(l)
+
+
+movies = {'installer' : 8 , 'lolopol' : 7 , 'meownneow' : 15 , 'polotol' : 4}
+
 l = []
 
-print(l)
-for person in names:
-  l.append(person + ' khan')
-# l.sort()
+for rating in movies:
+  if movies[rating] > 5:
+    l.append(rating)
+
 print(l)

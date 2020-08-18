@@ -193,3 +193,17 @@ def square():
 
 # count.clear()
 # print(count)
+
+#IMMUTABILTY
+# tuple
+# INT,FLOAT,bool
+
+# MUTABILITY
+# list
+# DICTONARIES
+# ORDERDICT
+
+a = (1 , 2 , [1,2,3,4])
+print(a)
+a[2][2] = 44
+print(a)

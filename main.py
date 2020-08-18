@@ -203,7 +203,20 @@ def square():
 # DICTONARIES
 # ORDERDICT
 
-a = (1 , 2 , [1,2,3,4])
-print(a)
-a[2][2] = 44
-print(a)
+# a = (1 , 2 , [1,2,3,4])
+# print(a)
+# a[2][2] = 44
+# print(a)
+
+
+
+# list comparision
+
+names = ['mudassir' , 'fahad' , 'obaid' ]
+l = []
+
+print(l)
+for person in names:
+  l.append(person + ' khan')
+# l.sort()
+print(l)

@@ -125,14 +125,33 @@ def square():
 # (name, age ,gendar) = a
 # print(name , age ,gendar)
 
-person1 = ('lol ' , 18 , "male")
-person2 = ('loli' , 19 , "female")
-people = {person1 , person2}
+# person1 = ('lol ' , 18 , "male")
+# person2 = ('loli' , 19 , "female")
+# people = {person1 , person2}
 
-for name, age , gendar in people:
-  print(name)
-  print(age)
-  print(gendar)
-  print()
+# for name, age , gendar in people:
+#   print(name)
+#   print(age)
+#   print(gendar)
+#   print()
 
 
+# SETS
+
+# a = {'android' , 'ios' }
+# a.add('windows')
+# print(a)
+
+# l = {1,2,2,2,3,3,3,3,3,4,4,4,4,4,6,6,5 ,'lol' ,'lol '}
+# a = set(l)
+# print(a)
+
+l1 = {'python' , 'javascript ', 'java' , 'c++'}
+l2 = {'java' , 'c++' , 'ruby ' , 'django'}
+a = l1.union(l2)
+print(a)
+
+ll1 = {'python' , 'javascript ', 'java' , 'c++'}
+ll2 = {'java' , 'c++' , 'ruby ' , 'django'}
+b = ll1.difference(ll2)
+print(b)

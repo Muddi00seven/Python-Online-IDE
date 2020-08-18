@@ -1,14 +1,16 @@
-import turtle
-a = turtle.Turtle()
+# import turtle
+import re
 
-def square():
-  a.forward(200)
-  a.right(90)
-  a.forward(200)
-  a.right(90)
-  a.forward(200)
-  a.right(90)
-  a.forward(200)
+# a = turtle.Turtle()
+
+# def square():
+#   a.forward(200)
+#   a.right(90)
+#   a.forward(200)
+#   a.right(90)
+#   a.forward(200)
+#   a.right(90)
+#   a.forward(200)
 
 # square()
 # a.forward(200)
@@ -222,12 +224,22 @@ def square():
 # print(l)
 
 
-movies = {'installer' : 8 , 'lolopol' : 7 , 'meownneow' : 15 , 'polotol' : 4}
+# movies = {'installer' : 8 , 'lolopol' : 7 , 'meownneow' : 15 , 'polotol' : 4}
 
-l = []
+# l = []
 
-for rating in movies:
-  if movies[rating] > 5:
-    l.append(rating)
+# for rating in movies:
+#   if movies[rating] > 5:
+#     l.append(rating)
 
-print(l)
+# print(l)
+
+
+# text = "My Name Is Khan"
+# pattern = re.compile('[MKI]')
+# result = pattern.search(text)
+# print(result)
+
+s = 'Hello from lololo@gmail.com to orya@yahoo.com about the meeting @2PM'
+lst = re.findall('\S+@\S+', s)     
+print(lst) 

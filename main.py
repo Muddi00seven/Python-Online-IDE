@@ -165,3 +165,31 @@ def square():
 # pooitems()
 # clear()
 
+# contacts = {
+#   'mull' :{'name' :'muzzamil' , 'number' : 4524555 , 'email' : 'mul@gmail.com'},
+#   'jane' : ['jane' , 2323 , 'jane@gmail.com']
+# }
+
+# print(contacts["mull  "])
+ 
+
+
+# count = {
+#   'meow' : 4,
+#  'peow' : 7,
+#   'lol' : 10
+# }
+
+# print(count.items())
+# print(count.keys())
+# print(count.values())
+
+# print(count)
+# count.pop("lol")
+# print(count)
+
+# count.popitem()
+# print(count)
+
+# count.clear()
+# print(count)

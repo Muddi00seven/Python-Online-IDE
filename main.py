@@ -2,8 +2,8 @@
 # import re
 # import datetime
 # import pytz
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
 
 # a = turtle.Turtle()
@@ -272,3 +272,11 @@ from bs4 import BeautifulSoup
 # soup = BeautifulSoup(page.content , 'html.parser')
 # print(soup.find_all('script'))
 
+  # ZIPPING
+list1 = ["lol","pol" , 'nol' , 'tol']
+list2 = ['one' , 'two' , 'three' , 'four'  ]
+zipped = list(zip(list1 , list2))
+print(zipped)
+  # UNZIPPING
+unzipped = list(zip(*zipped))
+print(unzipped)

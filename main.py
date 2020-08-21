@@ -1,6 +1,6 @@
-# import turtle
-import re
-
+  # import turtle
+# import re
+import datetime
 # a = turtle.Turtle()
 
 # def square():
@@ -240,6 +240,19 @@ import re
 # result = pattern.search(text)
 # print(result)
 
-s = 'Hello from lololo@gmail.com to orya@yahoo.com about the meeting @2PM'
-lst = re.findall('\S+@\S+', s)     
-print(lst) 
+# REGEX
+# s = 'Hello from lololo@gmail.com to orya@yahoo.com about the meeting @2PM'
+# lst = re.findall('\S+@\S+', s)     
+# print(lst) 
+
+    # datetime
+
+# today = datetime.date.today()
+# birthday = datetime.date(2002, 1 , 27)
+# total = (today - birthday).days
+# print(total)
+
+today = datetime.date.today()
+tdelta = datetime.timedelta(days = 10)
+print(today + tdelta)
+print(today.weekday())

@@ -2,7 +2,7 @@
 # import re
 import datetime
 # a = turtle.Turtle()
-
+import pytz
 # def square():
 #   a.forward(200)
 #   a.right(90)
@@ -245,14 +245,18 @@ import datetime
 # lst = re.findall('\S+@\S+', s)     
 # print(lst) 
 
-    # datetime
+    # DATETIME
 
 # today = datetime.date.today()
 # birthday = datetime.date(2002, 1 , 27)
 # total = (today - birthday).days
 # print(total)
 
-today = datetime.date.today()
-tdelta = datetime.timedelta(days = 10)
-print(today + tdelta)
-print(today.weekday())
+# today = datetime.date.today()
+# tdelta = datetime.timedelta(days = 10)
+# print(today + tdelta)
+# print(today.weekday())
+
+# datetime.date(y,m,d)
+# datetime.time(h,m,s,ms)
+# datetime.datetime(y,m,d,h,m,s,ms)

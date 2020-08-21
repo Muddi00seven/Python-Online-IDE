@@ -265,3 +265,10 @@ from bs4 import BeautifulSoup
 # datetime.date(y,m,d)
 # datetime.time(h,m,s,ms)
 # datetime.datetime(y,m,d,h,m,s,ms)
+
+# WEB SCRAPING PAGES
+
+# page = requests.get('https://cubeacloud.com')
+# soup = BeautifulSoup(page.content , 'html.parser')
+# print(soup.find_all('script'))
+
